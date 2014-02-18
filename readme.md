@@ -1,7 +1,7 @@
 Example for Distributed Web Sessions backed by MongoDB
 ======================================================
 
-This is a small example for distributing WebSessions among multiple tomcat servers.
+This is a small example for distributing WebSessions among multiple tomcat servers. You don't need to tweak the Tomcat/JBossAS installation (beside the regular clustering config).
 
 I created it in contrast to regular distributed web sessions. Usually the full session content is replicated after the web request tom all servers.
 
