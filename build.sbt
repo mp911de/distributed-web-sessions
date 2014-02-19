@@ -4,7 +4,7 @@ version := "1.0"
 
 resolvers += "Local Maven Repository" at "file://" + Path.userHome.absolutePath + "/.m2/repository"
 
-seq(webSettings :_*)
+seq(webSettings: _*)
 
 externalResolvers <<= resolvers map {
   rs =>
@@ -21,3 +21,4 @@ libraryDependencies += "com.thoughtworks.xstream" % "xstream" % "1.4.7"
 
 libraryDependencies += "org.mortbay.jetty" % "jetty" % "6.1.22" % "container"
 
+libraryDependencies += "com.typesafe" %% "scalalogging-slf4j" % "1.0.1"

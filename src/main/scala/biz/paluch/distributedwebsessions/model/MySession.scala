@@ -1,4 +1,5 @@
-package biz.paluch.distributedwebsessions
+package biz.paluch.distributedwebsessions.model
+
 
 /**
  * @author <a href="mailto:mpaluch@paluch.biz">Mark Paluch</a>

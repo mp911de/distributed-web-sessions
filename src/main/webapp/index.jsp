@@ -1,4 +1,4 @@
-<%@ page import="biz.paluch.distributedwebsessions.MySession" %>
+<%@ page import="biz.paluch.distributedwebsessions.model.MySession" %>
 <html>
 <head><title>Demo</title></head>
 <body>
